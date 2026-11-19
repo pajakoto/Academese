@@ -1,30 +1,15 @@
 
 const episodes = [
   {
-    title: "Getting Started",
-    description: "Let's introduce ourselves and start learning English together.",
-    level: "Beginner",
-    duration: "10 min",
-    icon: "🎙️",
+    title: "Academese – Episode 01",
+    description: "Discover English through our podcast and improve your listening skills.",
+    level: "Beginner – Intermediate",
+    duration: "Coming soon",
+    icon: "🎧",
     file: "audio/episode-01.mp3"
-  },
-  {
-    title: "Everyday Conversations",
-    description: "Learn useful phrases for everyday situations.",
-    level: "A1–A2",
-    duration: "12 min",
-    icon: "💬",
-    file: "audio/episode-02.mp3"
-  },
-  {
-    title: "Building Confidence",
-    description: "Discover how to speak English with more confidence.",
-    level: "A2–B1",
-    duration: "15 min",
-    icon: "✨",
-    file: "audio/episode-03.mp3"
   }
 ];
+
 
 const grid = document.getElementById("episodeGrid");
 const audio = document.getElementById("audioPlayer");
